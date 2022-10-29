@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 export default function Ref() {
-  const [inputValue, setInputValue] = useState("");
-  const [click, setClick] = useState(0);
+  const [setClick] = useState(0);
   const count = useRef(0);
 
   useEffect(() => {
